@@ -3,11 +3,6 @@ from tkinter import filedialog, ttk
 import pandas as pd
 import os
 
-
-
-
-
-
 def open_file():
     file_path = filedialog.askopenfilename(filetypes=[('Excel Files', '*.xlsx *.xls')])
     if file_path:
